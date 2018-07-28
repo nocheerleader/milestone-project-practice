@@ -2,7 +2,7 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-/* Navbar */
+/* --------------------------------------------------- Navbar */
 
 .navbar {
     margin-bottom: 0;
@@ -57,7 +57,7 @@ body {
     color: white;
 }
 
-/* Jumbotron */
+/* --------------------------------------------------- Jumbotron */
 
 .jumbotron-container {
     height: 100vh;
@@ -101,7 +101,7 @@ body {
 }
 
 
-/* Videos */
+/* --------------------------------------------------- Videos */
 
 .container-wrapper--green {
     background-color: #4abdac;
@@ -120,13 +120,39 @@ body {
     line-height: 45px;
 }
 
-/* Footer */
+/*--------------------------------------------------- Contact */
+
+.contact-heading {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.btn-default{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #f7b733;
+    color: #fafafa; 
+}
+
+/* --------------------------------------------------- Footer */
 
 footer {
-    background-color: red;
+    background-color: #4abdac;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+
+.footer-header {
+    color: #f7b733;
 }
 
 .social-links {
@@ -141,8 +167,8 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: green;
+    color: #f7b733;
+    background: white;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
