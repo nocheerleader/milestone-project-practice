@@ -101,5 +101,31 @@ body {
 }
 
 
+/* Videos */
 
+.container-wrapper--green {
+    background-color: #4abdac;
+    color: white;
+}
 
+.video {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.video .glyphicon {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.video .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
