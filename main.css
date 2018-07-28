@@ -2,6 +2,7 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
+
 /* --------------------------------------------------- Navbar */
 
 .navbar {
@@ -99,6 +100,13 @@ body {
 .quote {
     border-left: 0;
 }
+
+/* --------------------------------------------------- About Me */
+
+.bg-color-about-me {
+    background-color: #4abdac;
+}
+
 
 
 /* --------------------------------------------------- Videos */
