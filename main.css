@@ -37,7 +37,7 @@ body {
 }
 
 .navbar .navbar-brand:hover {
-    color: #fc4a1a;
+    color: #f7b733;
 }
 
 .navbar-default .navbar-nav a {
@@ -56,6 +56,42 @@ body {
 .navbar-default .navbar-nav>li>a:hover {
     color: white;
 }
+
+/* Jumbotron */
+
+.jumbotron-container {
+    height: 100vh;
+    background: url('yoga-jumbotron.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+
 
 
 
