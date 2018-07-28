@@ -90,7 +90,15 @@ body {
     margin-bottom: 30px;
 }
 
+/* Quotes */
 
+.guides .guides-header {
+    margin-bottom: 25px;
+}
+
+.quote {
+    border-left: 0;
+}
 
 
 
